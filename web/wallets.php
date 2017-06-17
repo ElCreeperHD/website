@@ -8,7 +8,7 @@
 	
 	<div class="row">
 		<div class="col-md-3">
-			<h2>Desktop</h2>
+			<h2><?php echo translate("Desktop", $lang); ?></h2>
 			<ul class="list-unstyled">
 				<li><img src="/images/windows.png" width="48" height="48"> Windows
 					<ul>
@@ -27,7 +27,7 @@
 			</ul>
 		</div>
 		<div class="col-md-3">
-			<h2>Mobile</h2>
+			<h2><?php echo translate("Mobile", $lang); ?></h2>
 			<ul class="list-unstyled">
 				<li><img src="/images/android.png" width="48" height="48"> Android (0.11.2)
 					<ul>
@@ -36,7 +36,7 @@
 			</ul>
 		</div>
 		<div class="col-md-3">
-			<h2>Source</h2>
+			<h2><?php echo translate("Source", $lang); ?></h2>
 			<ul class="list-unstyled">
 				<li><img src="/images/github.png" width="48" height="48"> GitHub
 					<ul>
@@ -46,7 +46,7 @@
 			</ul>
 		</div>
 		<div class="col-md-3">
-			<h2>Other</h2>
+			<h2><?php echo translate("Other", $lang); ?></h2>
 			<ul class="list-unstyled">
 				<li><a href="https://cryptap.us/myr/electrum/" target="_blank"><img src="/images/electrum.png" width="48" height="48"> Electrum
 					<ul>
